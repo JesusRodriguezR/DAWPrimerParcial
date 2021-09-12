@@ -18,7 +18,7 @@ function getWeather(){
         var temp = response.data.main.temp; 
         var hum = response.data.main.humidity;  
         var nubes = response.data.weather[0].description; 
-        
+        console.log(JSON.stringify(response));
        
         tempElement.innerHTML = (temp-273).toFixed(2) + " &#176;C";
         humElement.innerHTML = hum + "%";
