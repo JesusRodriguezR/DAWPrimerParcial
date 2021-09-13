@@ -36,17 +36,17 @@ function getWeather(){
         img2Element.innerHTML =    "<img src = \"img/humidity.svg\" height =\"120px\" width =\"120px\"></img>"
         
         if (nubes == 'overcast clouds'){
-            img3Element.innerHTML = "<img src = \"img/overcast.png\" height =\"120px\" width =\"120px\"></img>"
+            img3Element.innerHTML = "<img src = \"img/overcast.PNG\" height =\"120px\" width =\"120px\"></img>"
         }else if (nubes == 'scattered clouds'){
-            img3Element.innerHTML = "<img src = \"img/scattered.png\" height =\"120px\" width =\"120px\"></img>"
+            img3Element.innerHTML = "<img src = \"img/scattered.PNG\" height =\"120px\" width =\"120px\"></img>"
         }else if (nubes == 'broken clouds'){
-            img3Element.innerHTML = "<img src = \"img/broken.png\" height =\"120px\" width =\"120px\"></img>"
+            img3Element.innerHTML = "<img src = \"img/broken.PNG\" height =\"120px\" width =\"120px\"></img>"
         }else if (nubes == 'light rain'){
             img3Element.innerHTML = "<img src = \"img/light.svg\" height =\"120px\" width =\"120px\"></img>"
         }else if (nubes == 'clear sky'){
-            img3Element.innerHTML = "<img src = \"img/clear.png\" height =\"120px\" width =\"120px\"></img>"
+            img3Element.innerHTML = "<img src = \"img/clear.PNG\" height =\"120px\" width =\"120px\"></img>"
         }else if (nubes == 'few clouds'){
-            img3Element.innerHTML = "<img src = \"img/few.png\" height =\"120px\" width =\"120px\"></img>"
+            img3Element.innerHTML = "<img src = \"img/few.PNG\" height =\"120px\" width =\"120px\"></img>"
         }
     } 
 
